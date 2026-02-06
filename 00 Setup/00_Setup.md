@@ -46,7 +46,7 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=MyStrongPassword123!" -p 1433:1433
 1. Install the **SQL Server (mssql)** extension in VS Code.
 2. Click the **SQL Server icon** on the left bar.
 3. Click **Add Connection (+)**:
-   - **Hostname:** `localhost`
+   - **Hostname:** `localhost,1433`
    - **Database:** (Leave empty)
    - **Auth Type:** `SQL Login`
    - **Username:** `sa`
