@@ -20,11 +20,9 @@ How to use:
 
 */
 
-/*
 ------------------------------------------------------------
 -- 0) Create and use a sandbox database
 ------------------------------------------------------------
-*/
 IF DB_ID('SqlCourse') IS NULL
 BEGIN
     CREATE DATABASE SqlCourse;
